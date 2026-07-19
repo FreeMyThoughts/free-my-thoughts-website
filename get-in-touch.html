@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get in Touch | Free My Thoughts Coaching, Bristol</title>
+  <meta name="description" content="Get in touch with Marie at Free My Thoughts, Bristol-based life and business coach. Book your free 30-minute consultation — in person or online.">
+  <link rel="canonical" href="https://www.freemythoughts.co.uk/get-in-touch">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/webclip.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a class="brand" href="index.html"><img src="images/swallow.png" alt="Free My Thoughts swallow logo">Free My <span>Thoughts</span></a>
+      <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="life-coaching.html">Personal Coaching</a></li>
+        <li><a href="for-business.html">Business Coaching</a></li>
+        <li><a href="pricing.html">Investment</a></li>
+        <li><a href="meet-marie.html">Meet Marie</a></li>
+        <li><a href="get-in-touch.html" class="btn btn-primary" style="padding:0.7rem 1.4rem;" aria-current="page">Book a Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container hero-split">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h1>Begin with a conversation</h1>
+          <p>Every engagement starts with a complimentary 30-minute discovery consultation — a confidential conversation about where you are and what you want to change. Sessions are held in person in Bristol, or online wherever you are. The quickest way to book is directly through my calendar:</p>
+          <div class="hero-ctas" style="margin-top:1.75rem;">
+            <a class="btn btn-primary" href="https://calendly.com/marie-freemythoughts/freemythoughts" target="_blank" rel="noopener">Schedule a time</a>
+          </div>
+        </div>
+        <img class="photo" src="images/marie-contact.jpg" alt="Marie Stoner">
+      </div>
+    </section>
+
+    <section>
+      <div class="container" style="display:grid; grid-template-columns:1fr; gap:2.5rem;">
+        <div class="form-card">
+          <h2 style="margin-bottom:1.25rem;">Or send me a message</h2>
+          <!--
+            FORM SETUP (one-time, free):
+            1. Sign up at https://formspree.io (free tier: 50 submissions/month)
+            2. Create a form, copy its endpoint URL
+            3. Replace YOUR_FORM_ID in the action below
+            Until then, the form won't submit — the email link below works regardless.
+          -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-row">
+              <label for="phone">Contact number (optional)</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+44 7123 456 789">
+            </div>
+            <div class="form-row">
+              <label for="message">What are you looking for?</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Please share some details around what you are looking for."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p style="font-size:0.85rem; color:var(--ink-soft); margin-top:1rem;">I'll get back to you within 48 hours. Your details are only used to reply to you — see the <a href="privacy.html" style="color:var(--teal);">privacy policy</a>.</p>
+          </form>
+        </div>
+
+        <div>
+          <h2>Contact details</h2>
+          <p style="color:var(--ink-soft); margin-bottom:0.5rem;">📧 <a href="mailto:marie@freemythoughts.co.uk?subject=Hey%20Marie" style="color:var(--teal); font-weight:600;">marie@freemythoughts.co.uk</a></p>
+          <p style="color:var(--ink-soft); margin-bottom:0.5rem;">📞 <a href="tel:07932675945" style="color:var(--teal); font-weight:600;">07932 675 945</a></p>
+          <p style="color:var(--ink-soft); margin-bottom:0.5rem;">📷 <a href="https://www.instagram.com/mariefreemythoughtscoaching" target="_blank" rel="noopener" style="color:var(--teal); font-weight:600;">@mariefreemythoughtscoaching</a></p>
+          <p style="color:var(--ink-soft);">📍 Bristol &amp; Bath — life and business coaching in person or remote</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Free My Thoughts</h4>
+          <p>Life &amp; business coaching with Marie Stoner. Based in Bristol, working with clients across the UK &amp; Europe — online or face to face.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="life-coaching.html">Personal Coaching</a></li>
+            <li><a href="for-business.html">Business Coaching</a></li>
+            <li><a href="pricing.html">Investment</a></li>
+            <li><a href="meet-marie.html">Meet Marie</a></li>
+            <li><a href="get-in-touch.html">Get in Touch</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <ul>
+            <li><a href="mailto:marie@freemythoughts.co.uk">marie@freemythoughts.co.uk</a></li>
+            <li><a href="tel:07932675945">07932 675 945</a></li>
+            <li><a href="https://www.instagram.com/mariefreemythoughtscoaching" target="_blank" rel="noopener">@mariefreemythoughtscoaching</a></li>
+            <li>Bristol, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Free My Thoughts. All rights reserved.</span>
+        <span><a href="terms-and-conditions.html">Terms</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="privacy.html">Privacy</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
