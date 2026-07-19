@@ -27,7 +27,7 @@ Website for **Free My Thoughts**, the coaching practice of **Marie Stoner**, Bri
 
 ## Outstanding / decisions pending
 - Contact form needs a Formspree form ID in `get-in-touch.html` (search `YOUR_FORM_ID`).
-- Legal pages were rewritten UK-focused from US templates — Marie must review; "Last updated" dates are placeholders.
+- Legal pages reviewed with Marie (July 2026): sole trader identity added, bank-transfer payment, 48-hour cancellation + 14-day cooling-off, no-cookies privacy policy naming Calendly/Formspree, 6-year financial record retention, US waiver legalese replaced with plain UK disclaimer. Dates set to 19 July 2026. Still open: Marie to check ICO data protection fee applies (ico.org.uk self-assessment); consider a signed client coaching agreement.
 - No analytics currently; if wanted, use Cloudflare Web Analytics or Plausible (cookie-free, no banner needed).
 - sitemap.xml + robots.txt to create at deploy time; custom 404 page optional.
 - Domain/DNS: keep MX records untouched during migration (marie@ email must not break). Cancel Webflow only after new site is live and tested.
