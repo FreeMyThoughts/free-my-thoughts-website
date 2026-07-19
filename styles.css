@@ -86,7 +86,7 @@ img { max-width: 100%; display: block; }
 
 .nav-links a {
   text-decoration: none;
-  color: var(--ink-soft);
+  color: var(--bronze);
   font-weight: 500;
   font-size: 0.88rem;
   letter-spacing: 0.04em;
