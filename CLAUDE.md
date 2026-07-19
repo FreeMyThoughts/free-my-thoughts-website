@@ -9,6 +9,8 @@ Website for **Free My Thoughts**, the coaching practice of **Marie Stoner**, Bri
 - Real details in use: marie@freemythoughts.co.uk · 07932 675 945 · Instagram @mariefreemythoughtscoaching · Calendly: calendly.com/marie-freemythoughts/freemythoughts
 - Pricing: complimentary 20-min discovery consultation; personal coaching £60/50-min (min 6 sessions); combined life+business from £90/60-min; business engagements from £1,600/£1,700/£1,800 and £6,200 (6-month "shoulder-to-shoulder"). Charity/voluntary sector tailored.
 - Testimonials in use: Emma, Jacob, Daniel (from the previous site).
+- Reach claim: "hundreds of people" (NOT thousands — Marie corrected this). Speaking credentials: invited into organisations for business wellbeing talks, training sessions, team-building workshops, online lunchtime talks; invited back for specialist training on Leadership Fundamentals programmes; one online lunchtime session ("communicate with impact and overcome imposter syndrome in the workplace") drew 400+ people who stayed to the end.
+- **"The Swallow Effect"** — Marie's own outcomes framing, coined July 2026 to replace Clare Josa's "4 P's" (people/performance/productivity/profit, which must NOT be used): "free the thinking, and people soar — and when people soar, so does the business. Happier people, braver decisions, better work, stronger results." Lives on for-business.html; extend as brand identity develops.
 
 ## History
 - v1: generic placeholder site built from a brief.
