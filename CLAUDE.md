@@ -15,10 +15,11 @@ Website for **Free My Thoughts**, the coaching practice of **Marie Stoner**, Bri
 - v2: rebuilt using content from Marie's previous Webflow site (an export lives in `C:\Users\marie\OneDrive\website\` — photos, old copy, legal pages). Old URL slugs kept for SEO: `/life-coaching`, `/for-business`, `/pricing`, `/meet-marie`, `/get-in-touch`.
 - v3 (current): premium redesign + repositioning around imposter syndrome / professional blocks. Nav labels: Personal Coaching, Business Coaching, Investment, Meet Marie, Book a Consultation.
 
-## Design system (styles.css)
-- Palette: deep forest green `#1f3a33` / `#2c524a`, ivory `#faf8f3`, bronze accent `#a07c48`, hairline borders `#e6e0d3`.
-- Type: Fraunces (headings, serif) + Inter (body) via Google Fonts. Uppercase letter-spaced eyebrows/buttons/kickers. No emoji icons — use `.kicker` labels on cards.
-- Components: `.focus-band` (dark signature section), `.quote-band`, `.testimonial` (serif quotes with bronze “ mark), `.steps` (01/02/03 numbered), `.card` (bronze top border), `.area-grid`.
+## Design system (styles.css) — v4 "Warm Welcome"
+- Chosen by Marie (July 2026) from 8 mocked concepts; personal-yet-corporate. Palette: soft forest green `#2d4a42` / `#3a685c`, peach ivory `#fdf6ee`, terracotta accent `#c26744`, borders `#f0dcc8`.
+- Type: Fraunces (headings) + Inter (body) + **Caveat** (handwritten `.eyebrow` labels) via Google Fonts. `h1 em`/`h2 em` render as italic terracotta flourishes (used on the homepage headline). `.kicker` card labels stay uppercase.
+- Shapes: pill buttons (`border-radius:999px`), 14px card radius, hero photo arched (`999px 999px 14px 14px`), peach gradient hero background.
+- Components: `.focus-band` (now terracotta gradient signature section), `.quote-band` (deep green, peach accents `#eba277`), `.testimonial`, `.steps`, `.card` (terracotta top border), `.area-grid`, `.cta-band` (peach `#fae5d3`).
 
 ## Files
 - Pages: index, life-coaching, for-business, pricing, meet-marie, get-in-touch, terms-and-conditions, privacy, disclaimer (all .html)

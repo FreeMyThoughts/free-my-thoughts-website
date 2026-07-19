@@ -1,22 +1,24 @@
 /* ============================================
-   Free My Thoughts — site styles (v3, premium)
-   Palette: deep forest green · warm ivory · bronze
+   Free My Thoughts — site styles (v4, Warm Welcome)
+   Palette: soft forest green · peach ivory · terracotta
+   Accent script: Caveat (eyebrows) · arched photos · pill buttons
    ============================================ */
 
 :root {
   --ink: #1c2523;
   --ink-soft: #55615d;
-  --green-deep: #1f3a33;
-  --green: #2c524a;
-  --green-tint: #e9efec;
-  --bronze: #a07c48;
-  --bronze-soft: #efe6d6;
-  --ivory: #faf8f3;
+  --green-deep: #2d4a42;
+  --green: #3a685c;
+  --green-tint: #f2e7dc;
+  --bronze: #c26744;
+  --bronze-soft: #f9e5d8;
+  --ivory: #fdf6ee;
   --white: #ffffff;
-  --border: #e6e0d3;
-  --radius: 6px;
+  --border: #f0dcc8;
+  --radius: 14px;
   --font-head: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-script: "Caveat", "Segoe Script", cursive;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -42,7 +44,7 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Header / nav ---------- */
 .site-header {
-  background: rgba(250, 248, 243, 0.96);
+  background: rgba(253, 246, 238, 0.96);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   position: sticky;
@@ -106,7 +108,7 @@ img { max-width: 100%; display: block; }
 .btn {
   display: inline-block;
   padding: 0.95rem 2.1rem;
-  border-radius: 3px;
+  border-radius: 999px;
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
@@ -118,8 +120,8 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-body);
 }
 
-.btn-primary { background: var(--green-deep); color: var(--white); }
-.btn-primary:hover { background: var(--green); }
+.btn-primary { background: var(--bronze); color: var(--white); }
+.btn-primary:hover { background: #a95638; }
 
 .btn-secondary {
   background: transparent;
@@ -128,15 +130,15 @@ img { max-width: 100%; display: block; }
 }
 .btn-secondary:hover { background: var(--green-tint); }
 
-.btn-light { background: var(--white); color: var(--green-deep); }
-.btn-light:hover { background: var(--bronze-soft); }
+.btn-light { background: var(--white); color: #a3502c; }
+.btn-light:hover { background: #fae5d3; }
 
 /* ---------- Type ---------- */
 .eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.22em;
-  font-size: 0.72rem;
+  font-family: var(--font-script);
+  font-size: 1.45rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--bronze);
   margin-bottom: 1.4rem;
 }
@@ -150,6 +152,8 @@ h1 {
   margin-bottom: 1.5rem;
   letter-spacing: -0.01em;
 }
+
+h1 em, h2 em { font-style: italic; color: var(--bronze); }
 
 h2 {
   font-family: var(--font-head);
@@ -177,7 +181,10 @@ h2 {
 .rule.centered { margin: 0 auto 1.75rem; }
 
 /* ---------- Hero ---------- */
-.hero { padding: 6rem 0 5.5rem; }
+.hero {
+  padding: 6rem 0 5.5rem;
+  background: linear-gradient(180deg, #fae5d3 0%, #fdf6ee 85%);
+}
 
 .hero p.lede {
   font-size: 1.18rem;
@@ -195,12 +202,12 @@ h2 {
   align-items: center;
 }
 
-.hero-split .photo { aspect-ratio: 4 / 5; max-height: 560px; }
+.hero-split .photo { aspect-ratio: 4 / 5; max-height: 560px; border-radius: 999px 999px 14px 14px; }
 
 /* ---------- Sections ---------- */
 section { padding: 5.5rem 0; }
 
-.section-alt { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.section-alt { background: #fbf1e6; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 
 .section-dark {
   background: var(--green-deep);
@@ -208,7 +215,7 @@ section { padding: 5.5rem 0; }
 }
 
 .section-dark h2 { color: var(--white); }
-.section-dark .eyebrow { color: #c9a86b; }
+.section-dark .eyebrow { color: #eba277; }
 .section-dark .section-intro { color: #b9c6c0; }
 
 /* ---------- Cards ---------- */
@@ -229,7 +236,7 @@ section { padding: 5.5rem 0; }
 
 .card:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(28, 37, 35, 0.08); }
 
-.section-alt .card { background: var(--ivory); }
+.section-alt .card { background: var(--white); }
 
 .card .kicker {
   font-size: 0.7rem;
@@ -270,7 +277,7 @@ section { padding: 5.5rem 0; }
   gap: 2.5rem;
 }
 
-.step { border-left: 1px solid var(--border); padding-left: 1.75rem; }
+.step { border-left: 2px solid #efcdb2; padding-left: 1.75rem; }
 
 .step .step-num {
   font-family: var(--font-head);
@@ -305,7 +312,7 @@ section { padding: 5.5rem 0; }
   display: block;
   font-size: 4.5rem;
   line-height: 1;
-  color: var(--bronze);
+  color: #eba277;
   margin-bottom: 0.5rem;
 }
 
@@ -317,7 +324,7 @@ section { padding: 5.5rem 0; }
   font-size: 0.78rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #c9a86b;
+  color: #eba277;
   text-align: center;
 }
 
@@ -418,7 +425,7 @@ section { padding: 5.5rem 0; }
 .cta-band {
   text-align: center;
   padding: 6rem 0;
-  background: var(--white);
+  background: #fae5d3;
   border-top: 1px solid var(--border);
 }
 
@@ -450,7 +457,7 @@ input, textarea, select {
   width: 100%;
   padding: 0.85rem 1rem;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: 10px;
   font-family: var(--font-body);
   font-size: 1rem;
   background: var(--ivory);
@@ -517,14 +524,14 @@ input:focus, textarea:focus, select:focus {
 
 /* ---------- Signature focus band ---------- */
 .focus-band {
-  background: var(--green-deep);
-  color: #e8ede9;
+  background: linear-gradient(150deg, #a3502c 0%, #c26744 70%, #d07a52 100%);
+  color: #fdeee3;
   padding: 6rem 0;
 }
 
-.focus-band .eyebrow { color: #c9a86b; }
+.focus-band .eyebrow { color: #ffe3cd; }
 .focus-band h2 { color: var(--white); margin-bottom: 1.4rem; }
-.focus-band p { color: #b9c6c0; max-width: 40em; margin-bottom: 1.1rem; }
+.focus-band p { color: #fceadd; max-width: 40em; margin-bottom: 1.1rem; }
 .focus-band strong { color: var(--white); font-weight: 600; }
 
 .focus-list {
@@ -536,7 +543,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .focus-list li {
-  color: #d7dfda;
+  color: #fdeee3;
   font-size: 0.98rem;
   padding-left: 1.6rem;
   position: relative;
@@ -546,7 +553,7 @@ input:focus, textarea:focus, select:focus {
   content: "—";
   position: absolute;
   left: 0;
-  color: var(--bronze);
+  color: #ffd9bf;
 }
 
 /* ---------- Responsive ---------- */
