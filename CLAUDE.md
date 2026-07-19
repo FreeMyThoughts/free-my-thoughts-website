@@ -4,7 +4,7 @@ Website for **Free My Thoughts**, the coaching practice of **Marie Stoner**, Bri
 
 ## Business context
 - Marie is a life & business coach in Bristol; works UK & Europe, online and in person.
-- **Positioning (current)**: premium, targeted at personal & professional growth. **Signature focus: imposter syndrome and breaking through professional blocks.** Avoid presenting a long menu of problem areas — the offer is deliberately narrow: Personal Coaching + Business & Executive Coaching.
+- **Positioning (current)**: **imposter syndrome coaching**, full stop — for businesses (1:1 + group sessions) and individuals (min 6 sessions). Homepage rewritten July 2026 from Marie's own copy doc ("Homepage Copy Ideas", Sept 2025): first-person, warm, personal (mum of two, dog Saffy, "recovered imposter syndrome addict", nervous-system/safety framing, 58%/70% stats, "no quick fixes — committed clients only"). Keep her voice when editing; light polish only.
 - Method language she uses: NLP (Neuro-Linguistic Programming), mindfulness, somatic/ontological coaching, "internal work creates external change", working "at identity level". Brand symbol: the swallow (new life, fresh starts, renewal, growth). Brand phrase: "free your thinking / free my thoughts".
 - Real details in use: marie@freemythoughts.co.uk · 07932 675 945 · Instagram @mariefreemythoughtscoaching · Calendly: calendly.com/marie-freemythoughts/freemythoughts
 - Pricing: complimentary 20-min discovery consultation; personal coaching £60/50-min (min 6 sessions); combined life+business from £90/60-min; business engagements from £1,600/£1,700/£1,800 and £6,200 (6-month "shoulder-to-shoulder"). Charity/voluntary sector tailored.
