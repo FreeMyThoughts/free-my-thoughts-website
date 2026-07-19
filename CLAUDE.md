@@ -7,7 +7,7 @@ Website for **Free My Thoughts**, the coaching practice of **Marie Stoner**, Bri
 - **Positioning (current)**: premium, targeted at personal & professional growth. **Signature focus: imposter syndrome and breaking through professional blocks.** Avoid presenting a long menu of problem areas — the offer is deliberately narrow: Personal Coaching + Business & Executive Coaching.
 - Method language she uses: NLP (Neuro-Linguistic Programming), mindfulness, somatic/ontological coaching, "internal work creates external change", working "at identity level". Brand symbol: the swallow (new life, fresh starts, renewal, growth). Brand phrase: "free your thinking / free my thoughts".
 - Real details in use: marie@freemythoughts.co.uk · 07932 675 945 · Instagram @mariefreemythoughtscoaching · Calendly: calendly.com/marie-freemythoughts/freemythoughts
-- Pricing: complimentary 30-min discovery consultation; personal coaching £60/50-min (min 6 sessions); combined life+business from £90/60-min; business engagements from £1,600/£1,700/£1,800 and £6,200 (6-month "shoulder-to-shoulder"). Charity/voluntary sector tailored.
+- Pricing: complimentary 20-min discovery consultation; personal coaching £60/50-min (min 6 sessions); combined life+business from £90/60-min; business engagements from £1,600/£1,700/£1,800 and £6,200 (6-month "shoulder-to-shoulder"). Charity/voluntary sector tailored.
 - Testimonials in use: Emma, Jacob, Daniel (from the previous site).
 
 ## History
